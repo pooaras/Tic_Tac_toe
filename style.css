@@ -1,0 +1,29 @@
+#board
+{
+   display: flex;
+   justify-content: center;
+   margin-top: 200px;
+}
+.boardclm
+{
+    float: left;
+    
+}
+.boardcell
+{   
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    border: 1.3px solid black;
+    
+    color: rgb(13, 20, 20);
+    background-color: rgb(87, 77, 68);
+   
+    cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3.4rem;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
