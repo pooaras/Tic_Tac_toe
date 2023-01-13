@@ -1,2 +1,2 @@
 # Tic_Tac_toe
- <iframe src="https://pooaras.github.io/Tic_Tac_toe/" > </iframe>
+<a href="https://pooaras.github.io/Tic_Tac_toe/"><img src="" alt=""></a>
