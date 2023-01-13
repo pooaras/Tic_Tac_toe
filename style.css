@@ -1,8 +1,22 @@
+*
+{
+    background-color: grey;
+}
+#tic-tac-toe,#turn
+{   
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: fantasy;
+    
+}
 #board
 {
    display: flex;
    justify-content: center;
-   margin-top: 200px;
+   margin-top: 80px;
 }
 .boardclm
 {
@@ -14,7 +28,7 @@
     border-radius: 20px;
     width: 100px;
     height: 100px;
-    border: 1.3px solid black;
+    border: 5px solid black;
     
     color: rgb(13, 20, 20);
     background-color: rgb(87, 77, 68);
@@ -26,4 +40,49 @@
       font-size: 3.4rem;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+#result
+{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+#btn
+{
+    display:none;
+    color: rgb(134, 90, 33);
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    border-top: 0px;
+    border-left: 0px;
+    text-align: center;
+    background-color: rgb(66, 62, 62);
+    font-family: "Audiowide", sans-serif;
+    
+}
+#btn:hover{
+    border-color: antiquewhite;
+    cursor: pointer;
+}
+#txt
+{
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif;
+}
+#res
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo
+{   font-size: 13px;
+    font-family: "Audiowide", sans-serif;
+    position: absolute;
+    bottom: 0;
 }

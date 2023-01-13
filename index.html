@@ -4,29 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <script src="/index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <script src="./index.js"></script>
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
-    <div id="tic-tac-toe">
+<div >
+    <div id="tic-tac-toe"> It's a Dual player Tic-Tac-Toe Game...</div>
+    <div id="turn"></div>
     <div id="board">
         <div class="boardclm">
-            <div class="boardcell" onClick="myfun(0)"></div>
-            <div class="boardcell" onClick="myfun(1)"></div>
-            <div class="boardcell" onClick="myfun(2)"></div>
+            <div class="boardcell" onClick="myfun(0)" value=""></div>
+            <div class="boardcell" onClick="myfun(1)" value=""></div>
+            <div class="boardcell" onClick="myfun(2)" value=""></div>
         </div>
         <div class="boardclm">
-            <div class="boardcell" onClick="myfun(3)"></div>
-            <div class="boardcell" onClick="myfun(4)"></div>
-            <div class="boardcell" onClick="myfun(5)"></div>
+            <div class="boardcell" onClick="myfun(3)" value=""></div>
+            <div class="boardcell" onClick="myfun(4)" value=""></div>
+            <div class="boardcell" onClick="myfun(5)" value=""></div>
         </div>
         <div class="boardclm">
-            <div class="boardcell" onClick="myfun(6)"></div>
-            <div class="boardcell" onClick="myfun(7)"></div>
-            <div class="boardcell" onClick="myfun(8)"></div>
+            <div class="boardcell" onClick="myfun(6)" value=""></div>
+            <div class="boardcell" onClick="myfun(7)" value=""></div>
+            <div class="boardcell" onClick="myfun(8)" value=""></div>
         </div>
+    </div>
+    <div id="result"></div>
+    <div id="res">
+        <br>
+     <div id="txt">Do you wanna play again?...</div>
+     <br>
+     <button id="btn" onclick="window.location.reload()">Restart</button>
     </div>
 </div>
 </body>
+<footer>
+    <p class="logo">powered by pooaraz...</p>
+
+</footer>
 </html>
