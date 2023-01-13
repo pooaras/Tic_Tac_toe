@@ -58,7 +58,28 @@ function myfun(val)
 {
     
     arr=document.getElementById("board").querySelectorAll(".boardcell");
-    
+    let i=0,j=0;
+    // for(i=0;i<9;i--)
+    // {   
+    //     if(arr[i]!=undefined)
+    //         j++;
+    //     if(j==8){
+    //     }
+       
+
+    // }
+    arr1.forEach((item)=>
+    {
+        if(item!=undefined) j++;
+           
+    })
+    if(j==8)
+    {
+        this.document.getElementById("btn").style.display="inline-block";
+        this.document.getElementById("txt").style.display="inline-block";
+        this.document.getElementById("txt").innerHTML="Match draw ! Do you wanna play again?...";
+
+    }
     if(turn==player1 && arr[val].value==undefined && win==0)
     {  
         
